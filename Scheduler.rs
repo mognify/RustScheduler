@@ -3,6 +3,7 @@
 // https://blog.logrocket.com/how-to-build-a-blockchain-in-rust/
 // https://www.uc.edu/cdc/urban_database/food_resources/NUTRITION-LESSON-2-NUTRIENT0&FOOD-LABEL-FACTS.htm
 // https://www.researchgate.net/publication/286184266_Micronutrient_interrelationships_Synergism_and_antagonism
+// https://www.reddit.com/r/rust/comments/3fimgp/comment/hx83bsz/?utm_source=share&utm_medium=web2x&context=3
 
 enum Task{
     name(String), cooldown, timeAllowance, autoAddMorning, autoAddEvening
@@ -12,6 +13,10 @@ impl Task{
     fn getName(&self){
         
     }
+}
+
+struct{
+    
 }
 
 fn main() {
