@@ -1,3 +1,15 @@
+// https://doc.rust-lang.org/book/ch10-02-traits.html
+
+enum Task{
+    name(String), cooldown, timeAllowance, autoAddMorning, autoAddEvening
+}
+
+impl Task{
+    fn getName(&self){
+        
+    }
+}
+
 fn main() {
     let (eins, zwei, eat) = (5, 60, 20);
     let (teeth, shave, shower, dress) = (5, 15, 30, 15);
@@ -24,9 +36,4 @@ fn main() {
     // autoAM / autoPM
     // transit
     // .with(task, task, task) <- calls all their transits/preps/etc
-}
-
-#[derive(EnumIntoGetters, EnumAsGetters, EnumIsA, Debug)]
-enum Task{
-    name(String), cooldown, timeAllowance, autoAddMorning, autoAddEvening
 }
