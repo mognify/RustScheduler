@@ -2,6 +2,7 @@
 // https://blog.logrocket.com/5-rust-game-engines-consider-next-project/
 // https://blog.logrocket.com/how-to-build-a-blockchain-in-rust/
 // https://www.uc.edu/cdc/urban_database/food_resources/NUTRITION-LESSON-2-NUTRIENT0&FOOD-LABEL-FACTS.htm
+// https://www.researchgate.net/publication/286184266_Micronutrient_interrelationships_Synergism_and_antagonism
 
 enum Task{
     name(String), cooldown, timeAllowance, autoAddMorning, autoAddEvening
