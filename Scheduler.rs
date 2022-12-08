@@ -14,7 +14,7 @@ fn main() {
     // AM/PM? Just woke up, or end of day?
     // assign start time, end time
     // checkbox list of things to do
-    let awakening = [eins, zwei, laundryStart, pack, teeth, shave, shower, dress, (transit*8);]
+    let awakening = [eins, zwei, laundryStart, pack, teeth, shave, shower, dress, (transit*8)];
     
     // USE ENUMS https://www.tutorialspoint.com/rust/rust_enums.htm
     
@@ -24,4 +24,9 @@ fn main() {
     // autoAM / autoPM
     // transit
     // .with(task, task, task) <- calls all their transits/preps/etc
+}
+
+#[derive(EnumIntoGetters, EnumAsGetters, EnumIsA, Debug)]
+enum Task{
+    name(String), cooldown, timeAllowance, autoAddMorning, autoAddEvening
 }
