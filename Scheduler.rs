@@ -14,11 +14,14 @@ fn main() {
     // AM/PM? Just woke up, or end of day?
     // assign start time, end time
     // checkbox list of things to do
-    let stdSchedule = [transit, eins, zwei, laundryStart]
+    let awakening = [eins, zwei, laundryStart, pack, teeth, shave, shower, dress, (transit*8);]
+    
+    // USE ENUMS https://www.tutorialspoint.com/rust/rust_enums.htm
     
     // all of these should be objects tbh...
     // async bool OR cooldown (must be returned to AFTER, not before, but AFTER x minutes)
     // time allotted
     // autoAM / autoPM
-    // 
+    // transit
+    // .with(task, task, task) <- calls all their transits/preps/etc
 }
