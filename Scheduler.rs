@@ -1,6 +1,7 @@
 // https://doc.rust-lang.org/book/ch10-02-traits.html
 // https://blog.logrocket.com/5-rust-game-engines-consider-next-project/
 // https://blog.logrocket.com/how-to-build-a-blockchain-in-rust/
+// https://www.uc.edu/cdc/urban_database/food_resources/NUTRITION-LESSON-2-NUTRIENT0&FOOD-LABEL-FACTS.htm
 
 enum Task{
     name(String), cooldown, timeAllowance, autoAddMorning, autoAddEvening
