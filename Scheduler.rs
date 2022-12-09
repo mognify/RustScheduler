@@ -11,6 +11,7 @@
 // https://www.reddit.com/r/rust/comments/zgazli/scylladbs_take_on_webassembly_for_userdefined/
 // https://www.reddit.com/r/rust/comments/zfb6tq/the_rust_web_development_manning_book_is_now/
 // Zero to Production in Rust
+// https://www.reddit.com/r/rust/comments/zfi61k/what_the_hell_is_going_on_here/
 
 
 enum Task{
